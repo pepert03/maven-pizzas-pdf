@@ -10,9 +10,12 @@ Todos los archivos necesarios se encuentran en la carpeta `data`. Entre ellos se
 [maven-pizzas-xml](https://github.com/pepert03/maven-pizzas-xml).
 
 ## Reporte pdf
+
 El archivo ```pizzas_to_pdf.py``` contiene 3 funciones:
 * ```get_data()```: Obtiene los datos de ```predicción.csv``` y devuelve:
     * ```ganancias_mensuales.json```: Diccionario con las ganancias mensuales.
     * ```pizzas_totales.json```: Diccionario con las pizzas compradas cada dia.
 * ```get_graphs()```: Genera los graficos ```ingredientes.png```, ```ganancias_mensuales.png``` y ```pizzas_totales.png```.
 * ```get_pdf()```: Genera el pdf con el reporte ejecutivo.
+
+**Nota**: El tiempo de ejecución de `get_data()` es de 4 minutos aprox., los jsons obtenidos ya están guardados en la carpeta data, no hace falta ejecutarlo para hacer la predicción.
