@@ -1,4 +1,4 @@
-Reporte ejecutivo
+Reporte ejecutivo en pdf
 =================
 
 ## Introducción
