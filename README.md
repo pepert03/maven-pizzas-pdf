@@ -18,4 +18,4 @@ El archivo ```pizzas_to_pdf.py``` contiene 3 funciones:
 * ```get_graphs()```: Genera los graficos ```ingredientes.png```, ```ganancias_mensuales.png``` y ```pizzas_totales.png```.
 * ```get_pdf()```: Genera el pdf con el reporte ejecutivo.
 
-**Nota**: El tiempo de ejecución de `get_data()` es de 4 minutos aprox., los jsons obtenidos ya están guardados en la carpeta data, no hace falta ejecutarlo para hacer la predicción.
+**Nota**: El tiempo de ejecución de `get_data()` es de 4 minutos aprox., los jsons obtenidos ya están guardados en la carpeta data, no hace falta ejecutarlo para hacer el reporte.
