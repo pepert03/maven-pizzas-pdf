@@ -9,7 +9,7 @@ pip install -r requirements.txt
 Todos los archivos necesarios se encuentran en la carpeta `data`. Entre ellos se encuentra ```predicción.csv``` obtenido en 
 [maven-pizzas-xml](https://github.com/pepert03/maven-pizzas-xml).
 
-## Ejecución
+## Reporte pdf
 El archivo ```pizzas_to_pdf.py``` contiene 3 funciones:
 * ```get_data()```: Obtiene los datos de ```predicción.csv``` y devuelve:
     * ```ganancias_mensuales.json```: Diccionario con las ganancias mensuales.
